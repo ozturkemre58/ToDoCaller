@@ -31,6 +31,7 @@
 		C3908B302B7056510058C868 /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B2F2B7056510058C868 /* ToDoListViewModel.swift */; };
 		C3908B322B7056610058C868 /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B312B7056610058C868 /* NewItemViewModel.swift */; };
 		C3908B342B7056820058C868 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B332B7056820058C868 /* RegisterViewModel.swift */; };
+		C3A61F8F2B70A44D00289C94 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A61F8E2B70A44D00289C94 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		C3908B2F2B7056510058C868 /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
 		C3908B312B7056610058C868 /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
 		C3908B332B7056820058C868 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		C3A61F8E2B70A44D00289C94 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				C3908B1F2B704B560058C868 /* NewItemView.swift */,
 				C3908B252B704B900058C868 /* ToDoListView.swift */,
 				C3908B1D2B704B1A0058C868 /* ToDoListItemsView.swift */,
+				C3A61F8E2B70A44D00289C94 /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				C3908B302B7056510058C868 /* ToDoListViewModel.swift in Sources */,
 				C3908B202B704B560058C868 /* NewItemView.swift in Sources */,
 				C3908B2C2B7055E00058C868 /* MainViewModel.swift in Sources */,
+				C3A61F8F2B70A44D00289C94 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
