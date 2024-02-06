@@ -15,7 +15,7 @@ struct LoginView: View {
         
         VStack {
             //HeaderView
-            HeaderView()
+            HeaderView(title: "ToDoCaller", subtitle: "Welcome", angle: -15, bgColor: .orange)
             
             //BodyView
             Form {

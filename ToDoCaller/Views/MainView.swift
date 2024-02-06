@@ -12,7 +12,7 @@ struct MainView: View {
         NavigationView {
         LoginView()
         }
-        .padding()
+       
     }
 }
 
