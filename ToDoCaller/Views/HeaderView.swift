@@ -30,7 +30,7 @@ struct HeaderView: View {
                     .font(.system(size: 25))
                     .foregroundStyle(.white)
                     
-            }
+            }.padding(.top, 20)
             
         }
         .frame(width: UIScreen.main.bounds.width * 3, height: 300)

@@ -21,22 +21,16 @@ struct LoginView: View {
             Form {
                 TextField("Email Address", text: $email)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocapitalization(.none)
+                    .autocorrectionDisabled()
+                
                 SecureField("Password", text: $password)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
                 
-                Button {
-                    
-                } label: {
-                    ZStack {
-                        
-                        RoundedRectangle(cornerRadius: 10)
-                            .foregroundStyle(Color.blue)
-                        
-                        Text("Log In")
-                            .foregroundStyle(Color.white)
-                            .bold()
-                    }.padding()
-                }
+                TLButton(title: "Log In", bgColor: .blue) {
+                    print("LOG IN")
+                }.padding()
             }
             
             //FooterView
