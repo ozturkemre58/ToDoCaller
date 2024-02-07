@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3007C812B728754009B208D /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3007C802B728754009B208D /* TLButton.swift */; };
+		C3007C832B729B9F009B208D /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3007C822B729B9F009B208D /* LoginViewViewModel.swift */; };
 		C3908AE52B702B860058C868 /* ToDoCallerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908AE42B702B860058C868 /* ToDoCallerApp.swift */; };
 		C3908AE72B702B860058C868 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908AE62B702B860058C868 /* MainView.swift */; };
 		C3908AE92B702B870058C868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3908AE82B702B870058C868 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		C3007C802B728754009B208D /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		C3007C822B729B9F009B208D /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		C3908AE12B702B860058C868 /* ToDoCaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoCaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3908AE42B702B860058C868 /* ToDoCallerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCallerApp.swift; sourceTree = "<group>"; };
 		C3908AE62B702B860058C868 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				C3908B2F2B7056510058C868 /* ToDoListViewModel.swift */,
 				C3908B312B7056610058C868 /* NewItemViewModel.swift */,
 				C3908B332B7056820058C868 /* RegisterViewModel.swift */,
+				C3007C822B729B9F009B208D /* LoginViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				C3007C812B728754009B208D /* TLButton.swift in Sources */,
 				C3908B222B704B640058C868 /* RegisterView.swift in Sources */,
 				C3908AE52B702B860058C868 /* ToDoCallerApp.swift in Sources */,
+				C3007C832B729B9F009B208D /* LoginViewViewModel.swift in Sources */,
 				C3908B302B7056510058C868 /* ToDoListViewModel.swift in Sources */,
 				C3908B202B704B560058C868 /* NewItemView.swift in Sources */,
 				C3908B2C2B7055E00058C868 /* MainViewModel.swift in Sources */,
