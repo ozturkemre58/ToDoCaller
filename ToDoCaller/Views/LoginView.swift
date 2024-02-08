@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct LoginView: View {
+    @StateObject var viewModel = LoginViewViewModel()
+
     var body: some View {
-      @StateObject var viewModel = LoginViewViewModel()
-        
         VStack {
             //HeaderView
             HeaderView(title: "ToDoCaller", subtitle: "Welcome", angle: -15, bgColor: .orange)

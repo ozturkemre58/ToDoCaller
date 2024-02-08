@@ -9,9 +9,20 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        NavigationView {
-        LoginView()
+        
+        @StateObject var viewModel = MainViewViewModel()
+        
+        if viewModel.isSignedIn,   !viewModel.currentUserId.isEmpty {
+            //signed in
+            ToDoListView()
+        } else {
+            NavigationView {
+                LoginView()
+            }
+            
+            
         }
+        
        
     }
 }
