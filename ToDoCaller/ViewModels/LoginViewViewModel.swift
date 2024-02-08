@@ -11,7 +11,7 @@ import FirebaseAuth
 class LoginViewViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
-    @Published var errorMessage = "sas"
+    @Published var errorMessage = ""
     init() {}
     
     func login() {
@@ -20,10 +20,11 @@ class LoginViewViewModel: ObservableObject {
         }
         
         Auth.auth().signIn(withEmail: email, password: password)
-            
     }
     
     func validate() -> Bool {
+        errorMessage = ""
+
         guard !email.trimmingCharacters(in: .whitespaces).isEmpty, !password.trimmingCharacters(in: .whitespaces).isEmpty else {
             errorMessage = "Please fill in all fields"
             return false

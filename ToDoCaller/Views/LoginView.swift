@@ -15,13 +15,13 @@ struct LoginView: View {
             //HeaderView
             HeaderView(title: "ToDoCaller", subtitle: "Welcome", angle: -15, bgColor: .orange)
             
-            
-            if !viewModel.errorMessage.isEmpty {
-                Text(viewModel.errorMessage)
-                    .foregroundStyle(Color.red)
-            }
             //BodyView
             Form {
+                if !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage)
+                        .foregroundStyle(Color.red)
+                }
+                
                 TextField("Email Address", text: $viewModel.email)
                     .textFieldStyle(DefaultTextFieldStyle())
                     .autocapitalization(.none)
@@ -34,7 +34,7 @@ struct LoginView: View {
                 TLButton(title: "Log In", bgColor: .blue) {
                     viewModel.login()
                 }.padding()
-            }
+            }.offset(y: -50)
             
             //FooterView
             VStack {

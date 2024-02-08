@@ -34,6 +34,7 @@
 		C3908B322B7056610058C868 /* NewItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B312B7056610058C868 /* NewItemViewModel.swift */; };
 		C3908B342B7056820058C868 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B332B7056820058C868 /* RegisterViewModel.swift */; };
 		C3A61F8F2B70A44D00289C94 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A61F8E2B70A44D00289C94 /* HeaderView.swift */; };
+		C3F127212B74F5F40026F400 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F127202B74F5F40026F400 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		C3908B312B7056610058C868 /* NewItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewModel.swift; sourceTree = "<group>"; };
 		C3908B332B7056820058C868 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		C3A61F8E2B70A44D00289C94 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C3F127202B74F5F40026F400 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				C3908AE82B702B870058C868 /* Assets.xcassets */,
 				C3908AE42B702B860058C868 /* ToDoCallerApp.swift */,
+				C3F127202B74F5F40026F400 /* Extensions.swift */,
 				C3908B152B703C6D0058C868 /* GoogleService-Info.plist */,
 			);
 			path = Other;
@@ -362,6 +365,7 @@
 				C3908B262B704B900058C868 /* ToDoListView.swift in Sources */,
 				C3908B1E2B704B1A0058C868 /* ToDoListItemsView.swift in Sources */,
 				C3908B2E2B7056170058C868 /* ProfileViewViewModel.swift in Sources */,
+				C3F127212B74F5F40026F400 /* Extensions.swift in Sources */,
 				C3908B1C2B704ACF0058C868 /* ProfileView.swift in Sources */,
 				C3908B282B7054950058C868 /* User.swift in Sources */,
 				C3908B322B7056610058C868 /* NewItemViewModel.swift in Sources */,
