@@ -8,22 +8,32 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var viewModel = MainViewViewModel()
+
+    
     var body: some View {
         
-        @StateObject var viewModel = MainViewViewModel()
-        
-        if viewModel.isSignedIn,   !viewModel.currentUserId.isEmpty {
-            //signed in
-            ToDoListView()
+        if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
+            accountView
+            
         } else {
             NavigationView {
                 LoginView()
             }
-            
-            
         }
         
        
+    }
+    
+    @ViewBuilder
+    var accountView: some View {
+        TabView {
+            ToDoListView(userId: viewModel.currentUserId)
+                .tabItem { Label("ToDos", systemImage: "house") }
+            
+                .tabItem { Label("Account", systemImage: "person.circle") }
+            ProfileView()
+        }
     }
 }
 

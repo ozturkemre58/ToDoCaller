@@ -9,6 +9,7 @@ import Foundation
 import FirebaseAuth
 
 class MainViewViewModel: ObservableObject {
+    
     @Published var currentUserId: String = ""
     private var  handler: AuthStateDidChangeListenerHandle?
     
@@ -17,8 +18,6 @@ class MainViewViewModel: ObservableObject {
             DispatchQueue.main.async {
                 self?.currentUserId = user?.uid ?? ""
             }
-           
-            
         }
     }
     

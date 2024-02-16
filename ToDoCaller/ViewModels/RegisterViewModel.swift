@@ -23,6 +23,7 @@ class RegisterViewModel: ObservableObject {
         }
         
          Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
+             
             guard let userId = result?.user.uid else {
                 return
             }
