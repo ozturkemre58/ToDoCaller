@@ -31,9 +31,9 @@ struct MainView: View {
             ToDoListView(userId: viewModel.currentUserId)
                 .tabItem { Label("ToDos", systemImage: "house") }
             
-                .tabItem { Label("Account", systemImage: "person.circle") }
             ProfileView()
-        }
+                .tabItem { Label("Account", systemImage: "person.circle") }
+        }.tint(.green)
     }
 }
 
