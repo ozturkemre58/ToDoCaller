@@ -13,7 +13,7 @@ struct LoginView: View {
     var body: some View {
         VStack {
             //HeaderView
-            HeaderView(title: "ToDoCaller", subtitle: "Welcome", angle: -15, bgColor: .orange)
+            HeaderView(title: "ToDoCaller", subtitle: "Welcome", angle: -15, bgColor: .green)
             
             //BodyView
             Form {
@@ -31,7 +31,7 @@ struct LoginView: View {
                     .textFieldStyle(DefaultTextFieldStyle())
                     .autocorrectionDisabled()
                 
-                TLButton(title: "Log In", bgColor: .blue) {
+                TLButton(title: "Log In", bgColor: .green) {
                     viewModel.login()
                 }.padding()
             }.offset(y: -50)
