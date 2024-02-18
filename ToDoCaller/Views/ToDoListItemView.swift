@@ -19,6 +19,7 @@ struct ToDoListItemsView: View {
                     .font(.body)
                 Text("\(Date(timeIntervalSince1970: item.dueDate).formatted(date: .abbreviated, time: .shortened))")
                     .font(.footnote)
+                    .foregroundStyle(item.isDone ? .orange: .green)
                 
             }
             
@@ -26,7 +27,7 @@ struct ToDoListItemsView: View {
             Button {
                 viewModel.toggleIsDone(item: item)
             } label: {
-                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle").tint(.green)
+                Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle").foregroundColor(.green)
             }
         }
     }
