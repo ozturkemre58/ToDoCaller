@@ -34,6 +34,9 @@
 		C3908B342B7056820058C868 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B332B7056820058C868 /* RegisterViewModel.swift */; };
 		C39950992B82C6BA008B8165 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39950982B82C6BA008B8165 /* ToDoListItemViewViewModel.swift */; };
 		C3A61F8F2B70A44D00289C94 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A61F8E2B70A44D00289C94 /* HeaderView.swift */; };
+		C3BE66D32B8BD76F002CF8EA /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BE66D22B8BD76F002CF8EA /* CallView.swift */; };
+		C3BE66D52B8BD786002CF8EA /* CallViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BE66D42B8BD786002CF8EA /* CallViewViewModel.swift */; };
+		C3BE66D72B8BDE89002CF8EA /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3BE66D62B8BDE89002CF8EA /* ringtone.mp3 */; };
 		C3F127212B74F5F40026F400 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F127202B74F5F40026F400 /* Extensions.swift */; };
 		C3F127232B74F8AE0026F400 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F127222B74F8AE0026F400 /* MainViewViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -83,6 +86,9 @@
 		C3908B332B7056820058C868 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
 		C39950982B82C6BA008B8165 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		C3A61F8E2B70A44D00289C94 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		C3BE66D22B8BD76F002CF8EA /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
+		C3BE66D42B8BD786002CF8EA /* CallViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewViewModel.swift; sourceTree = "<group>"; };
+		C3BE66D62B8BDE89002CF8EA /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
 		C3F127202B74F5F40026F400 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C3F127222B74F8AE0026F400 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +181,7 @@
 		C3908B172B70422F0058C868 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				C3BE66D62B8BDE89002CF8EA /* ringtone.mp3 */,
 				C3908AE82B702B870058C868 /* Assets.xcassets */,
 				C3908AE42B702B860058C868 /* ToDoCallerApp.swift */,
 				C3F127202B74F5F40026F400 /* Extensions.swift */,
@@ -195,6 +202,7 @@
 				C3908B1D2B704B1A0058C868 /* ToDoListItemView.swift */,
 				C3A61F8E2B70A44D00289C94 /* HeaderView.swift */,
 				C3007C802B728754009B208D /* TLButton.swift */,
+				C3BE66D22B8BD76F002CF8EA /* CallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 				C3007C822B729B9F009B208D /* LoginViewViewModel.swift */,
 				C3F127222B74F8AE0026F400 /* MainViewViewModel.swift */,
 				C39950982B82C6BA008B8165 /* ToDoListItemViewViewModel.swift */,
+				C3BE66D42B8BD786002CF8EA /* CallViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -334,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3BE66D72B8BDE89002CF8EA /* ringtone.mp3 in Resources */,
 				C3908AEC2B702B870058C868 /* Preview Assets.xcassets in Resources */,
 				C3908AE92B702B870058C868 /* Assets.xcassets in Resources */,
 				C3908B162B703C6D0058C868 /* GoogleService-Info.plist in Resources */,
@@ -370,11 +380,13 @@
 				C3908B1E2B704B1A0058C868 /* ToDoListItemView.swift in Sources */,
 				C3908B2E2B7056170058C868 /* ProfileViewViewModel.swift in Sources */,
 				C3F127212B74F5F40026F400 /* Extensions.swift in Sources */,
+				C3BE66D32B8BD76F002CF8EA /* CallView.swift in Sources */,
 				C3908B1C2B704ACF0058C868 /* ProfileView.swift in Sources */,
 				C3908B282B7054950058C868 /* User.swift in Sources */,
 				C3908B322B7056610058C868 /* NewItemViewViewModel.swift in Sources */,
 				C3007C812B728754009B208D /* TLButton.swift in Sources */,
 				C3908B222B704B640058C868 /* RegisterView.swift in Sources */,
+				C3BE66D52B8BD786002CF8EA /* CallViewViewModel.swift in Sources */,
 				C3908AE52B702B860058C868 /* ToDoCallerApp.swift in Sources */,
 				C3007C832B729B9F009B208D /* LoginViewViewModel.swift in Sources */,
 				C3F127232B74F8AE0026F400 /* MainViewViewModel.swift in Sources */,
@@ -557,7 +569,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emreozturk.ToDoCaller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreozturk.secondToDoCaller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -586,7 +598,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emreozturk.ToDoCaller;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreozturk.secondToDoCaller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
