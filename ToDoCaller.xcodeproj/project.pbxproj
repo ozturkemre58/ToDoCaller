@@ -19,7 +19,6 @@
 		C3908B102B7034760058C868 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C3908B0F2B7034760058C868 /* FirebaseAuth */; };
 		C3908B122B7034760058C868 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C3908B112B7034760058C868 /* FirebaseFirestore */; };
 		C3908B142B7034760058C868 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3908B132B7034760058C868 /* FirebaseFirestoreSwift */; };
-		C3908B162B703C6D0058C868 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3908B152B703C6D0058C868 /* GoogleService-Info.plist */; };
 		C3908B1C2B704ACF0058C868 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B1B2B704ACF0058C868 /* ProfileView.swift */; };
 		C3908B1E2B704B1A0058C868 /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B1D2B704B1A0058C868 /* ToDoListItemView.swift */; };
 		C3908B202B704B560058C868 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3908B1F2B704B560058C868 /* NewItemView.swift */; };
@@ -37,6 +36,8 @@
 		C3BE66D32B8BD76F002CF8EA /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BE66D22B8BD76F002CF8EA /* CallView.swift */; };
 		C3BE66D52B8BD786002CF8EA /* CallViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BE66D42B8BD786002CF8EA /* CallViewViewModel.swift */; };
 		C3BE66D72B8BDE89002CF8EA /* ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C3BE66D62B8BDE89002CF8EA /* ringtone.mp3 */; };
+		C3CE90EB2B93C57300460E33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3CE90EA2B93C57300460E33 /* GoogleService-Info.plist */; };
+		C3CE90F02B93CBF000460E33 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C3CE90EF2B93CBF000460E33 /* FirebaseMessaging */; };
 		C3F127212B74F5F40026F400 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F127202B74F5F40026F400 /* Extensions.swift */; };
 		C3F127232B74F8AE0026F400 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F127222B74F8AE0026F400 /* MainViewViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -71,7 +72,6 @@
 		C3908AFB2B702B870058C868 /* ToDoCallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoCallerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3908AFF2B702B870058C868 /* ToDoCallerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCallerUITests.swift; sourceTree = "<group>"; };
 		C3908B012B702B870058C868 /* ToDoCallerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCallerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C3908B152B703C6D0058C868 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C3908B1B2B704ACF0058C868 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C3908B1D2B704B1A0058C868 /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
 		C3908B1F2B704B560058C868 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
@@ -89,6 +89,9 @@
 		C3BE66D22B8BD76F002CF8EA /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
 		C3BE66D42B8BD786002CF8EA /* CallViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewViewModel.swift; sourceTree = "<group>"; };
 		C3BE66D62B8BDE89002CF8EA /* ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ringtone.mp3; sourceTree = "<group>"; };
+		C3CE90EA2B93C57300460E33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C3CE90EC2B93C92A00460E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C3CE90ED2B93C93300460E33 /* ToDoCaller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToDoCaller.entitlements; sourceTree = "<group>"; };
 		C3F127202B74F5F40026F400 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C3F127222B74F8AE0026F400 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CE90F02B93CBF000460E33 /* FirebaseMessaging in Frameworks */,
 				C3908B102B7034760058C868 /* FirebaseAuth in Frameworks */,
 				C3908B122B7034760058C868 /* FirebaseFirestore in Frameworks */,
 				C3908B142B7034760058C868 /* FirebaseFirestoreSwift in Frameworks */,
@@ -128,6 +132,7 @@
 				C3908AF42B702B870058C868 /* ToDoCallerTests */,
 				C3908AFE2B702B870058C868 /* ToDoCallerUITests */,
 				C3908AE22B702B860058C868 /* Products */,
+				C3CE90EE2B93CBF000460E33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +149,8 @@
 		C3908AE32B702B860058C868 /* ToDoCaller */ = {
 			isa = PBXGroup;
 			children = (
+				C3CE90ED2B93C93300460E33 /* ToDoCaller.entitlements */,
+				C3CE90EC2B93C92A00460E33 /* Info.plist */,
 				C3908B172B70422F0058C868 /* Other */,
 				C3908B182B7042460058C868 /* Views */,
 				C3908B1A2B7042A30058C868 /* Models */,
@@ -185,7 +192,7 @@
 				C3908AE82B702B870058C868 /* Assets.xcassets */,
 				C3908AE42B702B860058C868 /* ToDoCallerApp.swift */,
 				C3F127202B74F5F40026F400 /* Extensions.swift */,
-				C3908B152B703C6D0058C868 /* GoogleService-Info.plist */,
+				C3CE90EA2B93C57300460E33 /* GoogleService-Info.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -231,6 +238,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		C3CE90EE2B93CBF000460E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -251,6 +265,7 @@
 				C3908B0F2B7034760058C868 /* FirebaseAuth */,
 				C3908B112B7034760058C868 /* FirebaseFirestore */,
 				C3908B132B7034760058C868 /* FirebaseFirestoreSwift */,
+				C3CE90EF2B93CBF000460E33 /* FirebaseMessaging */,
 			);
 			productName = ToDoCaller;
 			productReference = C3908AE12B702B860058C868 /* ToDoCaller.app */;
@@ -344,9 +359,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BE66D72B8BDE89002CF8EA /* ringtone.mp3 in Resources */,
+				C3CE90EB2B93C57300460E33 /* GoogleService-Info.plist in Resources */,
 				C3908AEC2B702B870058C868 /* Preview Assets.xcassets in Resources */,
 				C3908AE92B702B870058C868 /* Assets.xcassets in Resources */,
-				C3908B162B703C6D0058C868 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,12 +568,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToDoCaller/ToDoCaller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoCaller/Preview Content\"";
 				DEVELOPMENT_TEAM = 67Z58QAU33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoCaller/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ToDoCaller;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -582,12 +599,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ToDoCaller/ToDoCaller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ToDoCaller/Preview Content\"";
 				DEVELOPMENT_TEAM = 67Z58QAU33;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ToDoCaller/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = ToDoCaller;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -745,6 +764,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C3908B0E2B7034760058C868 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		C3CE90EF2B93CBF000460E33 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3908B0E2B7034760058C868 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
